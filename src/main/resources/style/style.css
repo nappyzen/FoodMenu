@@ -1,0 +1,80 @@
+.btn {
+    -fx-border-color :  #06C49C;
+    -fx-border-width : 0px 0px 1px 0px;
+}
+
+.btnReports {
+    -fx-background-color : white;
+    -fx-graphic: url("../images/reports.png");
+}
+
+.btnReports:focused {
+    -fx-graphic: url("../images/reports-white.png");
+    -fx-background-color : #06C49C;
+    -fx-text-fill : white;
+}
+
+.btnShowDishes {
+    -fx-background-color : white;
+    -fx-graphic: url("../images/show-dishes.png");
+}
+
+.btnShowDishes:focused {
+    -fx-graphic: url("../images/show-dishes-white.png");
+    -fx-background-color : #06C49C;
+    -fx-text-fill : white;
+}
+
+.btnDishNotes {
+    -fx-background-color : white;
+    -fx-graphic: url("../images/notes.png");
+}
+
+.btnDishNotes:focused {
+    -fx-graphic: url("../images/notes-white.png");
+    -fx-background-color : #06C49C;
+    -fx-text-fill : white;
+}
+
+.btnQuit {
+    -fx-graphic: url("../images/quit.png");
+}
+
+.btnAdd{
+    -fx-background-color :  #06C49C;
+    -fx-graphic: url("../images/add-white.png");
+
+}
+
+.btnEdit{
+    -fx-background-color :  #06C49C;
+    -fx-graphic: url("../images/edit-white.png");
+
+}
+
+.btnRuaj{
+    -fx-background-color :  #06C49C;
+    -fx-graphic: url("../images/save-white.png");
+
+}
+
+.btnAnullo{
+    -fx-background-color :   #f73478;
+    -fx-graphic: url("../images/cancel-white.png");
+
+}
+
+.property-icons {
+    -fx-background-repeat : no-repeat;
+    -fx-cursor: hand;
+    -fx-content-display: right;
+    -fx-background-color :  #1794B2;
+    -fx-background-insets : -2;
+    -fx-background-position : 10%;
+}
+
+.edit-icon {
+    -fx-background-image: url("../images/edit-white.png");
+    -fx-padding : 0 0 0 30;
+    -fx-text-fill: white;
+}

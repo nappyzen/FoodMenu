@@ -1,0 +1,10 @@
+
+.btnSave {
+	 -fx-background-color :  #4186ce;
+     -fx-graphic: url("../images/save-white.png");
+}
+
+.btnCancel {
+	 -fx-background-color :   #f73478;
+     -fx-graphic: url("../images/cancel-white.png");
+}

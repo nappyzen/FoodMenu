@@ -1,0 +1,107 @@
+.list-view {
+    -fx-background-color: white;
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: lightgrey;
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #e0ebff;
+}
+
+.list-view .list-cell:selected .text {
+    -fx-fill: black ;
+}
+
+.list-view .list-cell {
+    -fx-background-color: white;
+    -fx-border-color : #F5F5F5;
+    -fx-font-size:13px;
+    -fx-pref-height: 70;
+    -fx-font-weight: bold;
+    -fx-text-fill: #06C49C;
+    -fx-alignment: center;
+}
+
+.list-view .label {
+    -fx-text-fill: white;
+}
+
+.list-cell:empty {
+    visibility:hidden;
+    -fx-opacity: 0;
+}
+
+.list-view .scroll-bar{
+    -fx-background-color: #E1E1E1;
+    -fx-background-radius: 1em;
+}
+.list-view .scroll-bar:horizontal .track,
+.list-view .scroll-bar:vertical .track {
+    -fx-background-color: transparent;
+    -fx-border-color:transparent;
+    -fx-background-radius: 2em;
+}
+.list-view .scroll-bar:vertical .track-background,
+.list-view .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 2em;
+}
+.list-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: rgb(211,211,211);
+    -fx-background-insets: 4 0 4 0;
+    -fx-background-radius: 2em;
+}
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: white;
+    -fx-background-insets: 0 7 0 7;
+    -fx-background-radius: 2em;
+}
+.list-view .scroll-bar:horizontal .thumb:hover,
+.list-view .scroll-bar:vertical .thumb:hover {
+    -fx-background-color: rgb(231,231,231);
+}
+.list-view .scroll-bar:horizontal .thumb:pressed,
+.list-view .scroll-bar:vertical .thumb:pressed {
+    -fx-background-color: rgb(255,255,255);
+}
+.list-view .scroll-bar:vertical .increment-button, .list-view .scroll-bar:vertical .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.list-view .scroll-bar:horizontal .increment-button, .list-view .scroll-bar:horizontal .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+    -fx-padding: 5;
+}
+.list-view .scroll-bar:horizontal .increment-arrow {
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-background-color: rgb(211,211,211);
+    -fx-padding: 0.25em;
+    -fx-rotate: -90;
+}
+.list-view .scroll-bar:vertical .increment-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 0;
+}
+.list-view .scroll-bar:horizontal .decrement-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: 90;
+}
+.list-view .scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: rgb(211,211,211);
+    -fx-shape: "M 0 0 L 4 8 L 8 0 Z";
+    -fx-padding: 0.25em;
+    -fx-rotate: -180;
+}
+.list-view .scroll-bar:vertical:focused,
+.list-view .scroll-bar:horizontal:focused {
+    -fx-background-color: transparent,rgb(96,96,96),rgb(96,96,96);
+}
